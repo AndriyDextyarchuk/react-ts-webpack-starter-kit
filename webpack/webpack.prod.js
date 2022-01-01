@@ -6,7 +6,7 @@ module.exports = {
   devtool: 'source-map',
   plugins: [
     new webpack.DefinePlugin({
-      'process.env.name': JSON.stringify('Dex'),
+      'process.env.name': JSON.stringify('prod'),
     }),
     new BundleAnalyzer(),
   ],
